@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+h1, h2, h3, h4{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 300;
+}
+
+i{
+    font-size: 2rem;
+}
+
+.idLink:link{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+.idLink:visited{
+    color: #FFFFFF;
+    text-decoration:none;
+}
+
+.idLink:hover{
+    color: #AAAAAA;
+}
+
+.idLink:active{
+    color: #29FFA5;
+    border-color: #29FFA5;
+}
+.socialIcon{
+    width:auto;
+    height: 3rem;
+}
+
+.socialIconMini{
+    width:auto;
+    height: 2rem;
+}
+
+.albumart{
+    max-width: 40%;
+    height: auto;
+}
+
+.navScroll {
+    background: #4578F7;
+    transition: background 200ms;
+}
+
+#mainNav {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+
+#mainNav .navbar-toggler {
+    border: none;
+}
+
+#mainNav .nav-link{
+    color: #FFFFFF;
+}
+
+#mainNav .nav-link:hover{
+    color: #29FFA5;
+
+}
+
+#mainNav .active .nav-link{
+    color: #acacac;
+}
+
+#mainNav .dropdown-menu {
+    background: none;
+    border: none;
+    padding: none;
+    margin: none;
+    margin-top: -0.5em;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNav .dropdown-item {
+    background: none;
+    border: none;
+    padding: none;
+    margin: none;
+    margin-left: -0.7em;
+    color: #FFFFFF;
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+
+#mainNav .dropdown-item:hover {
+    color: #29FFA5;
+}
+
+#header{
+    height: 91vh;
+    background-image: url(img/grating.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#header-content{
+    text-align: center;
+    align-self: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#header-content img{
+    max-width: 50vw;
+}
+
+#header-content h3{
+    display: inline-block;
+}
+
+#subtitle{
+    letter-spacing:15px;
+}
+
+#sociallinks{
+    display: fui
+}
