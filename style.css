@@ -52,13 +52,18 @@ i{
 }
 
 .albumart{
-    max-width: 40%;
+    /* max-width: 40%; */
     height: auto;
 }
 
 .navScroll {
-    background: #4578F7;
+    background: rgba(0, 0, 0, 0.2);
     transition: background 200ms;
+}
+
+.bgoutline{
+    background-color: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(0.7rem);
 }
 
 #mainNav {
@@ -75,7 +80,7 @@ i{
 }
 
 #mainNav .nav-link:hover{
-    color: #29FFA5;
+    color: #acacac;
 
 }
 
@@ -104,10 +109,6 @@ i{
     font-weight: 300;
 }
 
-#mainNav .dropdown-item:hover {
-    color: #29FFA5;
-}
-
 #header{
     height: 91vh;
     background-image: url(img/grating.JPG);
@@ -121,7 +122,6 @@ i{
     text-align: center;
     align-self: center;
     align-items: center;
-    background-color: rgba(0, 0, 0, 0.5);
 }
 
 #header-content img{
@@ -136,6 +136,23 @@ i{
     letter-spacing:15px;
 }
 
-#sociallinks{
-    display: fui
+#aboutsection{
+    background-image: url(img/leg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#aboutparagraph{
+    margin: auto;
+    
+    line-height: 2rem;
+    font-size: 1.3rem;
+    max-width: 80%;
+}
+
+#footer{
+    background-color: #323232;
+    color: #787878;
 }
