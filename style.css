@@ -47,8 +47,8 @@ i{
 }
 
 .idLink:active{
-    color: #29FFA5;
-    border-color: #29FFA5;
+    color: #FFFFFF;
+    border-color: #FFFFFF;
 }
 .socialIcon{
     width:auto;
@@ -77,7 +77,7 @@ i{
 
 #mainNav {
     font-size: 1.5rem;
-    font-weight: 100;
+    font-weight: 200;
 }
 
 #mainNav .navbar-toggler {
@@ -120,6 +120,15 @@ i{
 
 #header{
     height: 92vh;
+    background-image: url(img/grating.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+#discoheader{
+    height: 20vh;
     background-image: url(img/grating.JPG);
     background-size: cover;
     background-repeat: no-repeat;
